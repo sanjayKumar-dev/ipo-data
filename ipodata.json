@@ -1,23 +1,20 @@
 [
     {
-        "name": "Anya Polytech & Fertilizers",
+        "name": "https://zerodha.com/ipo/399902/anya-polytech-fertilizers/||Anya Polytech & Fertilizers",
         "date": "26th — 30th Dec",
         "price": "13 - 14",
-        "status": "Open",
-        "link": "https://zerodha.com/ipo/399902/anya-polytech-fertilizers/||Click Here"
+        "status": "Open"
     },
     {
         "name": "Citichem India",
         "date": "27th — 31st Dec ",
         "price": "70 - 75 ",
-        "status": "Upcomming ",
-        "link": "#"
+        "status": "Upcomming "
     },
     {
         "name": "Dhanlaxmi Crop Science ",
         "date": "9th — 11th Dec ",
         "price": "52 - 55 ",
-        "status": "Closed ",
-        "link": "#"
+        "status": "Closed "
     }
 ]
