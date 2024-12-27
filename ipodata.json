@@ -1,20 +1,237 @@
 [
     {
-        "name": "https://zerodha.com/ipo/399902/anya-polytech-fertilizers/||Anya Polytech & Fertilizers",
-        "date": "26th — 30th Dec",
-        "price": "13 - 14",
-        "status": "Open"
+      "name": "https://zerodha.com/ipo/399902/anya-polytech-fertilizers/||Anya Polytech & Fertilizers",
+      "symbol": "ANYA SME",
+      "dates": "26th — 30th Dec",
+      "price": "13 - 14",
+      "amount": 130000,
+      "quantity": 10000,
+      "status": "Open"
     },
     {
-        "name": "Citichem India ",
-        "date": "27th — 31st Dec ",
-        "price": "70 - 75 ",
-        "status": "Upcomming "
+      "name": "#||Citichem India",
+      "symbol": "CITICHEM SME",
+      "dates": "27th — 31st Dec",
+      "price": "70",
+      "amount": 140000,
+      "quantity": 2000,
+      "status": "Open"
     },
     {
-        "name": "Dhanlaxmi Crop Science ",
-        "date": "9th — 11th Dec ",
-        "price": "52 - 55 ",
-        "status": "Closed "
+      "name": "#||Dhanlaxmi Crop Science",
+      "symbol": "DHANLAXMI SME",
+      "dates": "9th — 11th Dec",
+      "price": "52 - 55",
+      "amount": 104000,
+      "quantity": 2000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Toss The Coin",
+      "symbol": "TTC SME",
+      "dates": "10th — 12th Dec",
+      "price": "172 - 182",
+      "amount": 103200,
+      "quantity": 600,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Jungle Camps India",
+      "symbol": "JUNGLECAMP SME",
+      "dates": "10th — 12th Dec",
+      "price": "68 - 72",
+      "amount": 108800,
+      "quantity": 1600,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Purple United Sales",
+      "symbol": "PURPLEUTED SME",
+      "dates": "11th — 13th Dec",
+      "price": "121 - 126",
+      "amount": 121000,
+      "quantity": 1000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Vishal Mega Mart",
+      "symbol": "VMM",
+      "dates": "11th — 13th Dec",
+      "price": "74 - 78",
+      "amount": 14060,
+      "quantity": 190,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Supreme Facility Management",
+      "symbol": "SFML SME",
+      "dates": "11th — 13th Dec",
+      "price": "72 - 76",
+      "amount": 115200,
+      "quantity": 1600,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Sai Life Sciences",
+      "symbol": "SAILIFE",
+      "dates": "11th — 13th Dec",
+      "price": "522 - 549",
+      "amount": 14094,
+      "quantity": 27,
+      "status": "Closed"
+    },
+    {
+      "name": "#||One Mobikwik Systems Limited",
+      "symbol": "MOBIKWIK",
+      "dates": "11th — 13th Dec",
+      "price": "265 - 279",
+      "amount": 14045,
+      "quantity": 53,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Yash Highvoltage Limited",
+      "symbol": "YASHL SME",
+      "dates": "12th — 16th Dec",
+      "price": "138 - 146",
+      "amount": 138000,
+      "quantity": 1000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Inventurus Knowledge Solutions",
+      "symbol": "IKS",
+      "dates": "12th — 16th Dec",
+      "price": "1265 - 1329",
+      "amount": 13915,
+      "quantity": 11,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Hamps Bio",
+      "symbol": "HAMPS SME",
+      "dates": "13th — 17th Dec",
+      "price": "51",
+      "amount": 102000,
+      "quantity": 2000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||International Gemmological Institute (India) Limited",
+      "symbol": "IGIIL",
+      "dates": "13th — 17th Dec",
+      "price": "397 - 417",
+      "amount": 13895,
+      "quantity": 35,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Nacdac Infrastructure",
+      "symbol": "NACDAC SME",
+      "dates": "17th — 19th Dec",
+      "price": "33 - 35",
+      "amount": 132000,
+      "quantity": 4000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Identical Brains Studios",
+      "symbol": "IDENTICAL SME",
+      "dates": "18th — 20th Dec",
+      "price": "51 - 54",
+      "amount": 102000,
+      "quantity": 2000,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Mamata Machinery",
+      "symbol": "MAMATA",
+      "dates": "19th — 23rd Dec",
+      "price": "230 - 243",
+      "amount": 14030,
+      "quantity": 61,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Dam Capital Advisors",
+      "symbol": "DAMCAPITAL",
+      "dates": "19th — 23rd Dec",
+      "price": "269 - 283",
+      "amount": 14257,
+      "quantity": 53,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Newmalayalam Steel",
+      "symbol": "NMSTEEL SME",
+      "dates": "19th — 23rd Dec",
+      "price": "85 - 90",
+      "amount": 136000,
+      "quantity": 1600,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Concord Enviro Systems",
+      "symbol": "CEWATER",
+      "dates": "19th — 23rd Dec",
+      "price": "665 - 701",
+      "amount": 13965,
+      "quantity": 21,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Sanathan Textiles",
+      "symbol": "SANATHAN",
+      "dates": "19th — 23rd Dec",
+      "price": "305 - 321",
+      "amount": 14030,
+      "quantity": 46,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Transrail Lighting",
+      "symbol": "TRANSRAILL",
+      "dates": "19th — 23rd Dec",
+      "price": "410 - 432",
+      "amount": 13940,
+      "quantity": 34,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Carraro India",
+      "symbol": "CARRARO",
+      "dates": "20th — 24th Dec",
+      "price": "668 - 704",
+      "amount": 14028,
+      "quantity": 21,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Ventive Hospitality",
+      "symbol": "VENTIVE",
+      "dates": "20th — 24th Dec",
+      "price": "610 - 643",
+      "amount": 14030,
+      "quantity": 23,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Senores Pharmaceuticals",
+      "symbol": "SENORES",
+      "dates": "20th — 24th Dec",
+      "price": "372 - 391",
+      "amount": 14136,
+      "quantity": 38,
+      "status": "Closed"
+    },
+    {
+      "name": "#||Unimech Aerospace And Manufacturing",
+      "symbol": "UNIMECH",
+      "dates": "23rd — 26th Dec",
+      "price": "745 - 785",
+      "amount": 14155,
+      "quantity": 19,
+      "status": "Closed"
     }
-]
+  ]
+  
