@@ -1,14 +1,5 @@
 [
     {
-      "name": "https://ipotv.in/anya-ipo-overview-gmp-listing-date/||Anya Polytech & Fertilizers",
-      "symbol": "ANYA SME",
-      "dates": "26th — 30th Dec",
-      "price": "13 - 14",
-      "amount": 130000,
-      "quantity": 10000,
-      "status": "Open"
-    },
-    {
       "name": "https://ipotv.in/citichem-india-ipo-overview-gmp-listing-date/||Citichem India",
       "symbol": "CITICHEM SME",
       "dates": "27th — 31st Dec",
@@ -24,16 +15,25 @@
       "price": "204 - 215",
       "amount": 14835,
       "quantity": 69,
-      "status": "Upcoming"
+      "status": "Open"
     },
     {
       "name": "https://ipotv.in/technichem-organics-ipo-details-gmp-listing-date/||Technichem Organics",
-      "symbol": "-",
+      "symbol": "TECHNICHEM",
       "dates": "31st Dec - 02nd Jan 2025",
       "price": "52 - 55",
       "amount": 104000,
       "quantity": 2000,
-      "status": "Upcoming"
+      "status": "Open"
+    },
+    {
+      "name": "https://ipotv.in/anya-ipo-overview-gmp-listing-date/||Anya Polytech & Fertilizers",
+      "symbol": "ANYA SME",
+      "dates": "26th — 30th Dec",
+      "price": "13 - 14",
+      "amount": 130000,
+      "quantity": 10000,
+      "status": "Closed"
     },
     {
       "name": "#||Dhanlaxmi Crop Science",
