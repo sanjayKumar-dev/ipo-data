@@ -72,6 +72,24 @@
       "status": "Upcoming"
     },
     {
+      "name": "#||Capital Infra Trust InvIT",
+      "symbol": "CAPITALINFRA",
+      "dates": "07th Jan - 09th Jan 2025",
+      "price": "₹99 - ₹100",
+      "amount": 15000,
+      "quantity": 150,
+      "status": "Upcoming"
+    },
+    {
+      "name": "#||Indobell Insulation",
+      "symbol": "INDOBELL",
+      "dates": "06th - 08th Jan 2025",
+      "price": "₹10",
+      "amount": 30000,
+      "quantity": 3000,
+      "status": "Upcoming"
+    },
+    {
       "name": "https://ipotv.in/citichem-india-ipo-overview-gmp-listing-date/||Citichem India",
       "symbol": "CITICHEM SME",
       "dates": "27th — 31st Dec",
