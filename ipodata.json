@@ -57,7 +57,7 @@
       "name": "https://ipotv.in/standard-glass-ipo-gmp/||Standard Glass Lining Technology",
       "symbol": "STANGLASS",
       "dates": "06th Jan - 08th Jan 2025",
-      "price": "₹133 – ₹140",
+      "price": "₹133 - ₹140",
       "amount": 14980,
       "quantity": 107,
       "status": "Upcoming"
@@ -65,10 +65,19 @@
     {
       "name": "https://ipotv.in/quadrant-future-tek-ipo-gmp/||Quadrant Future Tek",
       "symbol": "QUADRANT",
-      "dates": "07th – 09th Jan 2025",
-      "price": "₹275 – ₹290",
+      "dates": "07th - 09th Jan 2025",
+      "price": "₹275 - ₹290",
       "amount": 0,
       "quantity": 0,
+      "status": "Upcoming"
+    },
+    {
+      "name": "https://ipotv.in/indobell-insulation-ipo-gmp-overview-valuation/||Indobell Insulation",
+      "symbol": "INDOBELL",
+      "dates": "06th - 08th Jan 2025",
+      "price": "₹10",
+      "amount": 30000,
+      "quantity": 3000,
       "status": "Upcoming"
     },
     {
@@ -80,15 +89,7 @@
       "quantity": 150,
       "status": "Upcoming"
     },
-    {
-      "name": "#||Indobell Insulation",
-      "symbol": "INDOBELL",
-      "dates": "06th - 08th Jan 2025",
-      "price": "₹10",
-      "amount": 30000,
-      "quantity": 3000,
-      "status": "Upcoming"
-    },
+    
     {
       "name": "https://ipotv.in/citichem-india-ipo-overview-gmp-listing-date/||Citichem India",
       "symbol": "CITICHEM SME",
