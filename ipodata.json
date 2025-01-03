@@ -1,23 +1,5 @@
 [
     {
-      "name": "https://ipotv.in/indo-farm-equipment-ipo-gmp-detail-overview/||Indo Farm Equipment",
-      "symbol": "INDOFARM",
-      "dates": "31st Dec - 02nd Jan 2025",
-      "price": "₹204 - ₹215",
-      "amount": 14835,
-      "quantity": 69,
-      "status": "Open"
-    },
-    {
-      "name": "https://ipotv.in/technichem-organics-ipo-details-gmp-listing-date/||Technichem Organics",
-      "symbol": "TECHNICHEM",
-      "dates": "31st Dec - 02nd Jan 2025",
-      "price": "₹52 - ₹55",
-      "amount": 110000,
-      "quantity": 2000,
-      "status": "Open"
-    },
-    {
       "name": "https://ipotv.in/leo-dry-fruits-and-spices-ipo-gmp/||Leo Dry Fruits and Spices Trading",
       "symbol": "VANDU",
       "dates": "01st Jan - 03rd Jan 2025",
@@ -51,7 +33,7 @@
       "price": "₹80 - ₹85",
       "amount": 136000,
       "quantity": 1600,
-      "status": "Upcoming"
+      "status": "Open"
     },
     {
       "name": "https://ipotv.in/standard-glass-ipo-gmp/||Standard Glass Lining Technology",
@@ -89,7 +71,24 @@
       "quantity": 150,
       "status": "Upcoming"
     },
-    
+    {
+      "name": "https://ipotv.in/indo-farm-equipment-ipo-gmp-detail-overview/||Indo Farm Equipment",
+      "symbol": "INDOFARM",
+      "dates": "31st Dec - 02nd Jan 2025",
+      "price": "₹204 - ₹215",
+      "amount": 14835,
+      "quantity": 69,
+      "status": "Open"
+    },
+    {
+      "name": "https://ipotv.in/technichem-organics-ipo-details-gmp-listing-date/||Technichem Organics",
+      "symbol": "TECHNICHEM",
+      "dates": "31st Dec - 02nd Jan 2025",
+      "price": "₹52 - ₹55",
+      "amount": 110000,
+      "quantity": 2000,
+      "status": "Open"
+    },
     {
       "name": "https://ipotv.in/citichem-india-ipo-overview-gmp-listing-date/||Citichem India",
       "symbol": "CITICHEM SME",
