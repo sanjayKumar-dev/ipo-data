@@ -1,5 +1,77 @@
 [
   {
+    "name": "#||CapitalNumbers Infotech",
+    "symbol": "CAPNUMB",
+    "dates": "20 Jan - 22 Jan 2025",
+    "price": "₹250 - ₹263",
+    "amount": 100000,
+    "quantity": 400,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||EMA Partners India",
+    "symbol": "EMAPARTNERS",
+    "dates": "17 Jan - 21 Jan 2025",
+    "price": "₹117 - ₹124",
+    "amount": 117000,
+    "quantity": 1000,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Landmark Immigration Consultants",
+    "symbol": "LICL",
+    "dates": "16 Jan - 20 Jan 2025",
+    "price": "₹70 - ₹72",
+    "amount": 112000,
+    "quantity": 1600,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Stallion India Fluorochemicals",
+    "symbol": "STALLION",
+    "dates": "16 Jan - 20 Jan 2025",
+    "price": "₹85 - ₹90",
+    "amount": 14025,
+    "quantity": 165,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Rikhav Securities",
+    "symbol": "RIKHAV",
+    "dates": "15 Jan - 17 Jan 2025",
+    "price": "₹82 - ₹86",
+    "amount": 131200,
+    "quantity": 1600,
+    "status": "Open"
+  },
+  {
+    "name": "#||Kabra Jewels",
+    "symbol": "KKJEWELS",
+    "dates": "15 Jan - 17 Jan 2025",
+    "price": "₹121 - ₹128",
+    "amount": 121000,
+    "quantity": 1000,
+    "status": "Open"
+  },
+  {
+    "name": "#||Laxmi Dental",
+    "symbol": "LAXMIDENTL",
+    "dates": "13 Jan - 15 Jan 2025",
+    "price": "₹407 - ₹428",
+    "amount": 13431,
+    "quantity": 33,
+    "status": "Open"
+  },
+  {
+    "name": "#||Barflex Polyfilms",
+    "symbol": "BARFLEX",
+    "dates": "10 Jan - 15 Jan 2025",
+    "price": "₹57 - ₹60",
+    "amount": 114000,
+    "quantity": 2000,
+    "status": "Open"
+  },
+  {
     "name": "#||Sat Kartar Shopping",
     "symbol": "SATKARTAR",
     "dates": "10 Jan - 14 Jan 2025",
