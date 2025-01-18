@@ -42,7 +42,7 @@
     "price": "₹82 - ₹86",
     "amount": 131200,
     "quantity": 1600,
-    "status": "Open"
+    "status": "Closed"
   },
   {
     "name": "#||Kabra Jewels",
@@ -51,7 +51,7 @@
     "price": "₹121 - ₹128",
     "amount": 121000,
     "quantity": 1000,
-    "status": "Open"
+    "status": "Closed"
   },
   {
     "name": "#||Laxmi Dental",
@@ -60,7 +60,7 @@
     "price": "₹407 - ₹428",
     "amount": 13431,
     "quantity": 33,
-    "status": "Open"
+    "status": "Closed"
   },
   {
     "name": "#||Barflex Polyfilms",
@@ -69,7 +69,7 @@
     "price": "₹57 - ₹60",
     "amount": 114000,
     "quantity": 2000,
-    "status": "Open"
+    "status": "Closed"
   },
   {
     "name": "#||Sat Kartar Shopping",
