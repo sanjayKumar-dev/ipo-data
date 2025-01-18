@@ -145,7 +145,7 @@
         let originalData = [];
 
         // Fetch IPO data from external source
-        fetch('https://raw.githubusercontent.com/sanjayKumar-dev/ipo-data/refs/heads/main/ipodata.json')
+        fetch('ipodata.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
