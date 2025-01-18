@@ -1,6 +1,6 @@
 [
   {
-    "name": "#||CapitalNumbers Infotech",
+    "name": "#||Capital Numbers Infotech",
     "symbol": "CAPNUMB",
     "dates": "20 Jan - 22 Jan 2025",
     "price": "₹250 - ₹263",
@@ -15,7 +15,7 @@
     "price": "₹117 - ₹124",
     "amount": 117000,
     "quantity": 1000,
-    "status": "Upcoming"
+    "status": "Open"
   },
   {
     "name": "#||Landmark Immigration Consultants",
@@ -24,7 +24,7 @@
     "price": "₹70 - ₹72",
     "amount": 112000,
     "quantity": 1600,
-    "status": "Upcoming"
+    "status": "Open"
   },
   {
     "name": "#||Stallion India Fluorochemicals",
@@ -33,7 +33,7 @@
     "price": "₹85 - ₹90",
     "amount": 14025,
     "quantity": 165,
-    "status": "Upcoming"
+    "status": "Open"
   },
   {
     "name": "#||Rikhav Securities",
