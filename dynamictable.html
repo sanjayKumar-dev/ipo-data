@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPO Details</title>
+    <style>
+        .ipo-table {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+
+
+            .container {
+                width: 90%;
+                margin: 20px auto;
+                overflow-x: auto;
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            th {
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            a {
+                color: #4CAF50;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .chip {
+                display: inline-block;
+                padding: 5px 10px;
+                font-size: 14px;
+                color: white;
+                border-radius: 15px;
+            }
+
+            .chip.open {
+                background-color: #28a745;
+            }
+
+            .chip.closed {
+                background-color: #dc3545;
+            }
+
+            .chip.upcoming {
+                background-color: #ffc107;
+                color: #333;
+            }
+
+            .pagination {
+                text-align: center;
+                margin: 20px 0;
+            }
+
+            .pagination button {
+                padding: 10px 15px;
+                margin: 0 5px;
+                border: none;
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .pagination button:disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ipo-table">
+        <div class="container">
+            <h1>IPO Details</h1>
+            <table id="ipoTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('name')">IPO Name</th>
+                        <th onclick="sortTable('symbol')">Symbol</th>
+                        <th onclick="sortTable('dates')">Dates</th>
+                        <th onclick="sortTable('price')">Price Range</th>
+                        <th onclick="sortTable('amount')">Amount</th>
+                        <th onclick="sortTable('quantity')">Quantity</th>
+                        <th>
+                            <select id="statusFilter" onchange="filterByStatus()">
+                                <option value="all">All</option>
+                                <option value="open">Open</option>
+                                <option value="closed">Closed</option>
+                                <option value="upcoming">Upcoming</option>
+                            </select>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be dynamically inserted here -->
+                </tbody>
+            </table>
+            <div class="pagination" id="pagination">
+                <!-- Pagination buttons will be dynamically inserted here -->
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script>
+        let currentPage = 1;
+        const rowsPerPage = 15;
+        let filteredData = [];
+        let originalData = [];
+
+        // Fetch IPO data from external source
+        fetch('https://raw.githubusercontent.com/sanjayKumar-dev/ipo-data/refs/heads/main/ipodata.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                originalData = data;
+                filteredData = data;
+                renderTable();
+                renderPagination();
+            })
+            .catch(error => {
+                console.error('Error fetching IPO data:', error);
+            });
+
+        function renderTable() {
+            const tableBody = document.getElementById('ipoTable').querySelector('tbody');
+            tableBody.innerHTML = '';
+            const start = (currentPage - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const pageData = filteredData.slice(start, end);
+
+            pageData.forEach(ipo => {
+                const row = document.createElement('tr');
+
+                // Extract URL and name
+                const [url, name] = ipo.name.split('||');
+
+                // Determine status chip
+                let statusClass = '';
+                if (ipo.status.toLowerCase() === 'open') {
+                    statusClass = 'chip open';
+                } else if (ipo.status.toLowerCase() === 'closed') {
+                    statusClass = 'chip closed';
+                } else if (ipo.status.toLowerCase() === 'upcoming') {
+                    statusClass = 'chip upcoming';
+                }
+
+                row.innerHTML = `
+                <td><a href="${url}" target="_blank">${name}</a></td>
+                <td>${ipo.symbol}</td>
+                <td>${ipo.dates}</td>
+                <td>${ipo.price}</td>
+                <td>₹${ipo.amount.toLocaleString()}</td>
+                <td>${ipo.quantity}</td>
+                <td><span class="${statusClass}">${ipo.status}</span></td>
+            `;
+
+                tableBody.appendChild(row);
+            });
+        }
+
+        function renderPagination() {
+            const pagination = document.getElementById('pagination');
+            pagination.innerHTML = '';
+            const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+
+            for (let i = 1; i <= totalPages; i++) {
+                const button = document.createElement('button');
+                button.textContent = i;
+                button.disabled = i === currentPage;
+                button.onclick = () => {
+                    currentPage = i;
+                    renderTable();
+                    renderPagination();
+                };
+                pagination.appendChild(button);
+            }
+        }
+
+        function sortTable(key) {
+            filteredData.sort((a, b) => {
+                if (key === 'amount' || key === 'quantity') {
+                    return a[key] - b[key];
+                }
+                return a[key].localeCompare(b[key]);
+            });
+            currentPage = 1;
+            renderTable();
+            renderPagination();
+        }
+
+        function filterByStatus() {
+            const status = document.getElementById('statusFilter').value;
+            filteredData = status === 'all' ? originalData : originalData.filter(ipo => ipo.status.toLowerCase() === status);
+            currentPage = 1;
+            renderTable();
+            renderPagination();
+        }
+    </script>
+</body>
+
+</html>
