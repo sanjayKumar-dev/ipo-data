@@ -1,1 +1,1 @@
-[IPO Tv](https://www.ipotv.in)
+For the Full IPO Details Follow [IPO Tv](https://www.ipotv.in)
