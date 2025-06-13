@@ -1,1 +1,83 @@
-[{"name":"#||Monolithisch India","symbol":"MONOLITH","dates":"12 Jun - 16 Jun 2025","price":"₹135 - ₹143","amount":0,"quantity":0,"status":"Open"},{"name":"#||ATENPAPERS","symbol":"AtenPapers&Foam","dates":"13 Jun - 17 Jun 2025","price":"₹91 - ₹96","amount":0,"quantity":0,"status":"Open"},{"name":"#||Oswal Pumps","symbol":"OSWALPUMPS","dates":"13 Jun - 17 Jun 2025","price":"₹584 - ₹614","amount":0,"quantity":0,"status":"Open"},{"name":"#||Patil Automation","symbol":"PATILAUTOM","dates":"16 Jun - 18 Jun 2025","price":"₹114 - ₹120","amount":0,"quantity":0,"status":"Upcoming"},{"name":"#||Samay Project Services","symbol":"SAMAY","dates":"16 Jun - 18 Jun 2025","price":"₹32 - ₹34","amount":0,"quantity":0,"status":"Upcoming"},{"name":"#||Eppeltone Engineers","symbol":"EEPL","dates":"17 Jun - 19 Jun 2025","price":"₹125 - ₹128","amount":0,"quantity":0,"status":"Upcoming"},{"name":"#||Influx Healthtech","symbol":"INFLUXHEALTH","dates":"18 Jun - 20 Jun 2025","price":"₹90 - ₹96","amount":0,"quantity":0,"status":"Upcoming"},{"name":"#||ARISINFRA","symbol":"ArisinfraSolutions","dates":"18 Jun - 20 Jun 2025","price":"₹210 - ₹222","amount":0,"quantity":0,"status":"Upcoming"},{"name":"#||Mayasheel Ventures","symbol":"MAYASHEEL","dates":"20 Jun - 24 Jun 2025","price":"₹44 - ₹47","amount":0,"quantity":0,"status":"Upcoming"}]
+[
+  {
+    "name": "#||Monolithisch India",
+    "symbol": "MONOLITH",
+    "dates": "12 Jun - 16 Jun 2025",
+    "price": "₹135 - ₹143",
+    "amount": 135000,
+    "quantity": 1000,
+    "status": "Open"
+  },
+  {
+    "name": "#||ATENPAPERS",
+    "symbol": "AtenPapers&Foam",
+    "dates": "13 Jun - 17 Jun 2025",
+    "price": "₹91 - ₹96",
+    "amount": 109200,
+    "quantity": 1200,
+    "status": "Open"
+  },
+  {
+    "name": "#||Oswal Pumps",
+    "symbol": "OSWALPUMPS",
+    "dates": "13 Jun - 17 Jun 2025",
+    "price": "₹584 - ₹614",
+    "amount": 14016,
+    "quantity": 24,
+    "status": "Open"
+  },
+  {
+    "name": "#||Patil Automation",
+    "symbol": "PATILAUTOM",
+    "dates": "16 Jun - 18 Jun 2025",
+    "price": "₹114 - ₹120",
+    "amount": 136800,
+    "quantity": 1200,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Samay Project Services",
+    "symbol": "SAMAY",
+    "dates": "16 Jun - 18 Jun 2025",
+    "price": "₹32 - ₹34",
+    "amount": 128000,
+    "quantity": 4000,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Eppeltone Engineers",
+    "symbol": "EEPL",
+    "dates": "17 Jun - 19 Jun 2025",
+    "price": "₹125 - ₹128",
+    "amount": 125000,
+    "quantity": 1000,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Influx Healthtech",
+    "symbol": "INFLUXHEALTH",
+    "dates": "18 Jun - 20 Jun 2025",
+    "price": "₹90 - ₹96",
+    "amount": 108000,
+    "quantity": 1200,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||ARISINFRA",
+    "symbol": "ArisinfraSolutions",
+    "dates": "18 Jun - 20 Jun 2025",
+    "price": "₹210 - ₹222",
+    "amount": 14070,
+    "quantity": 67,
+    "status": "Upcoming"
+  },
+  {
+    "name": "#||Mayasheel Ventures",
+    "symbol": "MAYASHEEL",
+    "dates": "20 Jun - 24 Jun 2025",
+    "price": "₹44 - ₹47",
+    "amount": 132000,
+    "quantity": 3000,
+    "status": "Upcoming"
+  }
+]
